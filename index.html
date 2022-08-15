@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="js.js"></script>
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+        <div class="cabecalho">
+            <ul class="nav">
+                <li>
+                    <nav>
+                        <a href="#Conteudo">Apresentação</a>
+                    </nav>
+                </li>
+                <li>
+                    <nav>
+                        <a href="#Formacao">Formação</a>
+                    </nav>
+                </li>
+                <li>
+                    <nav>
+                        <a href="#Projetos">Projetos</a>
+                    </nav>
+                </li>
+                <li>
+                    <nav>
+                        <a href="#Contato">Contato</a>
+                    </nav>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="avatar">
+            <img src="./imagens/mel.jpg" alt="Melissa escritorio" width="300px" height="350px" class="imagem">
+            <span class="nombre">
+                <h1>Melissa Mendoza</h1>
+                Developer Full-Stack
+            </span>
+        </div>
+
+        <main>
+            <div id="Conteudo" class="contenido">
+                <h2>Apresentação</h2>
+                <span>Sou Venezuelana, estou morando no Brasil, Rj há 4 anos. Tenho 26 anos de idade, fiz 3 anos de
+                    Medicina e 1 ano de Gastronomia na Venezuela. Agora estou me dedicando a estudar na área de
+                    tecnologia.
+
+                    Estou me aprimorando como Desenvolvedor Full Stack com a Toti Diversidade.
+                    Gosto muito da natureza, dos paseios em familia, cozinha e dança.</span>
+            </div>
+        </main>
+
+        <div id="Formacao" class="Formacion">
+            <h2>Formação</h2>
+            <p>2013. Ensino Medio Completo (U.E.P Miguel Palao Rico. Edo Cojedes - Venezuela)</p>
+            <p>Em andamento. Desenvolvedor Back-End (TOTI Diversidade Brasil)</p>
+        </div>
+
+        <header id="Projetos" class="Proyectos">
+            <h2>Projetos</h2>
+            <div id="CARDp" class="cardp1">
+                <img src="./imagens/mongodb.png" atl="projeto mongodb" class="cardimg">
+                <h3>Projeto de MongoDB</h3>
+                <span>Criação de uma coleção chamada filmes de anos entre 1997 e 2021, 
+                    diferentes consultas feitas usando alguns comandos.</span>
+                <a href="https://github.com/Melsanz/Projeto_Mongodb">ver repositorio</a>
+
+            </div>
+
+            <div class="cardp2">
+                <img src="./imagens/brownie.png" alt="Receita de brownie" class="cardimg">
+                <h3>Receita de brownie</h3>
+                <span>Aqui encontramos uma pagina feita com HTML e CCS onde dou a conhecer
+                    minha receita favorita de sobremesa.</span>
+                <a href="https://github.com/Melsanz/exercicioCSS">ver repositorio</a>
+            </div>
+
+            <div class="cardp3">
+                <img src="./imagens/arepa.png" alt="tipos de arepa" class="cardimg">
+                <h3>Tipos de arepa</h3>
+                <span>Uma mostra da conhecida "arepa" da Venezuela e a variedade de recheios,
+                    pagina feita com HTML.</span>
+                <a href="https://github.com/Melsanz/pratica_siteHTML">ver repositorio</a>
+            </div>
+        </header>
+
+        <header id="Contato" class="Contacto">
+            <h2>Contato</h2>
+            <span>
+                <div id="contatoicone">
+                    <img src="./assets/github.png" class="iconegit"><a href="https://github.com/Melsanz">Melsanz</a>
+                    <img src="./assets/instagram.png" class="iconeinst">
+                    <a href="https://www.instagram.com/melsanz2004">melsanz2004</a>
+                    <img src="./assets/facebook.png" class="iconeface">
+                    <a href="https://www.facebook.com/melissamendoza2120/">Melissa Mendoza</a>
+                    <img src="./assets/marketing-de-email.png" class="iconeemail"><a href="#">melsanz1011@gmail.com</a>
+                </div>
+            </span>
+            <seção>
+                
+      <div class="formulario">
+        <div class="cont">
+          <h1>Contato Direto</h1>
+        </div>
+        <form name="Formulario" method="post" onsubmit="return validateForm()">
+          <label>Nome:</label>
+          <input
+            tipo="texto"
+            nome="form-name"
+            placeholder="digite aqui seu nome"
+            required/>
+          <label>E-mail:</label>
+          <input
+            digite="e-mail"
+            nome="form-e-mail"
+            placeholder="digite aqui o seu e-mail"
+            required/>
+          
+          <label>Texto:</label>
+          <textarea
+            nome="área_texto"
+            id=""
+            cols="30"
+            linhas="10"
+            placeholder="digite aqui a sua mensagem!"
+          ></textarea>
+          <input type="submit" value="enviar" class="btn"/>
+        </form>
+      </div>
+    </section>
+        </header>
+    </body>
+</html>
